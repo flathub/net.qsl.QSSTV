@@ -9,7 +9,7 @@ finish-args:
   - --device=all
   - --socket=pulseaudio
   - --share=network
-  - --filesystem=home
+  - --persist=qsstv
 cleanup:
   - /man
   - /include

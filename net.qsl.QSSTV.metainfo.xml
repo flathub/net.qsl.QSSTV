@@ -7,7 +7,9 @@
   <id>qsstv.desktop</id>
  </provides>
  <name>QSSTV</name>
- <developer_name>Johan ON4QZ</developer_name>
+ <developer id="net.qsl">
+   <name>Johan ON4QZ</name>
+ </developer>
  <summary>Program for receiving and transmitting SSTV and HAMDRM</summary>
  <description>
   <p>QSSTV is a program for receiving and transmitting SSTV and HAMDRM (sometimes called DSSTV). It is compatible with most of MMSSTV and EasyPal.</p>
@@ -20,6 +22,7 @@
  </screenshots>
  <url type="homepage">https://www.qsl.net/on4qz/</url>
  <url type="bugtracker">https://github.com/ON4QZ/QSSTV/issues</url>
+ <url type="vcs-browser">https://github.com/ON4QZ/QSSTV</url>
  <releases>
   <release version="9.5.8" date="2021-08-03"/>
   <release version="9.4.4" date="2019-08-04"/>

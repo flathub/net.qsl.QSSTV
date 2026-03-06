@@ -11,14 +11,13 @@ finish-args:
   - --share=network
   - --persist=qsstv
 cleanup:
-  - /man
   - /include
-  - /share/man
+  - /lib/pkgconfig
+  - /share/aclocal
   - /share/doc
-  - /doc
+  - /share/man
   - '*.a'
   - '*.la'
-  - /bin/usr
 modules:
   - shared-modules/linux-audio/fftw3f.json
 
